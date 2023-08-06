@@ -20,9 +20,9 @@ export const CounterApp = ({ value }) => {
     <>
         <h1>CounterApp</h1>
         <h2>{ counter }</h2>
-        <button className='btn btn-secondary' onClick={ handleSubstract }>-1</button>
-        <button className='btn btn-danger' onClick={ handleReset }>Reset</button>
-        <button className='btn btn-primary' onClick={ handleAdd }>+1</button>
+        <button aria-label='btn-restar' className='btn btn-secondary' onClick={ handleSubstract }>-1</button>
+        <button aria-label='btn-reset' className='btn btn-danger' onClick={ handleReset }>Reset</button>
+        <button aria-label='btn-sumar' className='btn btn-primary' onClick={ handleAdd }>+1</button>
     </>
     )
 }
